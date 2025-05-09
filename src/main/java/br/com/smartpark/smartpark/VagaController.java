@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping
-public class Controller {
+public class VagaController {
     @GetMapping("/vagas")
     public String listVagas(){
         return "Lista de vagas disponíveis";
