@@ -1,11 +1,11 @@
-package br.com.smartpark.smartpark;
+package br.com.smartpark;
 
 import jakarta.persistence.*;
 
 // Criação de entidades, tabelas no BD
 @Entity
 @Table(name = "tb_cadastro_vagas")
-public class VagaModel {
+public class ParkingSpotModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,10 +13,10 @@ public class VagaModel {
     private String endereco;
     private boolean disponivel;
 
-    public VagaModel() {
+    public ParkingSpotModel() {
     }
 
-    public VagaModel(Long id, String endereco, boolean disponivel) {
+    public ParkingSpotModel(Long id, String endereco, boolean disponivel) {
         this.id = id;
         this.endereco = endereco;
         this.disponivel = disponivel;

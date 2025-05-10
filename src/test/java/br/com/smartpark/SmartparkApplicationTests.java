@@ -1,4 +1,4 @@
-package br.com.smartpark.smartpark;
+package br.com.smartpark;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
