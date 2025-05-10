@@ -1,4 +1,4 @@
-package br.com.smartpark;
+package br.com.smartpark.model;
 
 import jakarta.persistence.*;
 

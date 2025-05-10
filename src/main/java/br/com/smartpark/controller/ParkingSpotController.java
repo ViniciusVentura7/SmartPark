@@ -1,4 +1,4 @@
-package br.com.smartpark;
+package br.com.smartpark.controller;
 
 import br.com.smartpark.dto.CreateParkingSpotRequest;
 import br.com.smartpark.dto.ParkingSpotResponseDTO;
