@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ParkingSpotResponseDTO",
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer" },
+    "endereco": { "type": "string" },
+    "disponivel": { "type": "boolean" }
+  },
+  "required": ["id", "endereco", "disponivel"]
+}
